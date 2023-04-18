@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <title>Subir un Proyecto a Git</title>
+</head>
+<body>
+    <div class="sombra">
+        <h1>Subir un Proyecto a Git</h1>
+        <p>Git es un sistema de control de versiones ampliamente utilizado que permite a los desarrolladores colaborar en
+        proyectos de software y rastrear los cambios en el código fuente. Aquí te mostramos cómo subir un proyecto a
+        Git:</p>
+        <ol>
+            <li>Instalar Git: Si no tienes Git instalado en tu computadora, necesitas instalarlo. Puedes descargarlo desde
+                el sitio web oficial de Git (https://git-scm.com/).</li>
+            <li>Crear un Repositorio: Navega a la ubicación de tu proyecto en tu computadora y abre una ventana de
+                terminal. Ejecuta el siguiente comando para crear un nuevo repositorio Git en tu proyecto:</li>
+            <pre><code>git init</code></pre>
+            <li>Agregar Archivos: A continuación, agrega los archivos de tu proyecto al repositorio Git utilizando el
+                siguiente comando:</li>
+            <pre><code>git add .</code></pre>
+            <li>Realizar un Commit: Haz un commit de los cambios utilizando el siguiente comando. Esto creará una
+                instantánea de los archivos agregados y los guardará en el repositorio Git:</li>
+            <pre><code>git commit -m "Mensaje del Commit"</code></pre>
+            <li>Crear un Repositorio Remoto: Crea un repositorio remoto en un servicio de alojamiento de Git, como GitHub o
+                GitLab.</li>
+            <li>Asociar Repositorio Remoto: Asocia tu repositorio local con el repositorio remoto utilizando el
+                siguiente comando:</li>
+            <pre><code>git remote add origin [URL del repositorio remoto]</code></pre>
+            <li>Subir el Proyecto: Finalmente, sube tu proyecto al repositorio remoto utilizando el siguiente comando:
+            </li>
+            <pre><code>git push -u origin master</code></pre>
+        </ol>
+        <p>¡Y eso es todo! Ahora tu proyecto está subido a Git y puedes colaborar con otros desarrolladores y realizar un
+            seguimiento de los cambios en el código fuente.</p>
+    </div>
+</body>
+</html>
